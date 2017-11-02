@@ -2,7 +2,7 @@ import xlrd
 import numpy as np
 import matplotlib.pyplot as plt
 
-file_location = "/home/pi/Desktop/ECG/normal.xls"
+file_location = "C:\Users\DELL\Desktop\qwert\raspberry_project\database\normal.xls"
 workbook = xlrd.open_workbook(file_location)
 first_sheet = workbook.sheet_by_index(0)
 
